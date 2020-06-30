@@ -1,8 +1,8 @@
 # Implement your procedural solution here!
 
-def sum_square_difference
-    range = (1..100)
-    square_sum - sum_square
+def sum_square_difference(limit)
+    range = (1..limit)
+    square_sum(range) - sum_square(range)
 end
 
 def sum_square(range)
